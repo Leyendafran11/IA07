@@ -1,0 +1,27 @@
+tree("Root")
+	fallback
+		sequence
+			bateriaBaja
+			irDestino
+			llegoDestino
+			bateriaCargada
+		sequence
+			basuraLlena
+			irDestino
+			llegoDestino
+			basuraDescargada
+		sequence
+			race
+				basuraEncontrada
+				destinoAleatorio
+			sequence
+				irDestino
+				race
+					basuraEncontrada	
+					llegoDestino
+		
+			
+			
+		
+			
+			
